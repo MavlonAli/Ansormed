@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@100;200;300;400;500;600;700&display=swap");
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+body{
+width: 100%;
+min-width: 1440px;
+font-family: "Open Sans",sans-serif;
+font-weight: 400;
+font-size: 16px;
+background-color: #fff;
+}
+header{
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+.logo:hover {
+    color: #DE2E54;
+}
+.logo:active {
+    color: #DE2E54;
+    opacity: 0.6; 
+}
+.logo img {
+    margin-right: 16px;
+}
+/* SITENAV */
+.sitenav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.sitenav li a {
+    margin-left: 32px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sitenav li a:hover{
+    color: #DE2E54; 
+}
+.sitenav li a:active{
+    color: #DE2E54;
+    opacity: 0.6; 
+}
+.site-button {
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Open Sans Condensed";
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #DE2E54;
+    padding: 12px 24px;
+    border: 2px solid #DE2E54;
+}
+.site-button:hover{
+    color: #DE2E54;
+    border: 2px solid #DE2E54;
+    background: #FFF;
+}
+.site-button:active{
+    color: #fff;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+    opacity: 0.6;
+}
+/* HERO SECTION */
+.hero-section {
+    padding: 0 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0EB4C1;
+}
+.hero-content {
+    color: #fff;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    font-family:"Open Sans Condensed";
+}
+.hero-content p {
+    width: 440px;
+    margin-top: 16px;
+    margin-bottom: 36px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hero-img {
+    margin-top: 29px;
+}
+/* SERVICES  */
+.services-section {
+    padding: 128px 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-section h3 {
+   color: #000;
+   font-size: 36px;
+   font-weight: 700;
+   font-family:"Open Sans Condensed"; 
+}
+.services-content {
+    margin: 56px 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 80px;
+}
+.services-content li {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.services-content li img {
+    border-radius: 24px;
+}
+.services-content li h4 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    font-family:"Open Sans Condensed";
+    margin-bottom: 24px;  
+}
+.services-content li p {
+    width: 600px;
+    color: #444;
+}
+/* CTA SECTION */
+
+.cta-section {
+    background: #0EB4C1;
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.cta-section h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family:"Open Sans Condensed"; 
+    margin-bottom: 40px;
+}
+.cta-link a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 2px solid #FFF;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family:"Open Sans Condensed";
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+.cta-link a:hover{
+    color: #fff;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;  
+}
+.cta-link a:active{
+    color: #fff;
+    border: 2px solid #DE2E54;
+    background: #DE2E54; 
+    opacity: 0.6; 
+}
+.cta-link a:first-child {
+    margin-right: 40px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-around;
+    background: #222;
+}
+footer .sitenav a, footer .logo {
+    color: #fff;
+}
+
